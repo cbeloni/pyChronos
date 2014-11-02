@@ -1,0 +1,13 @@
+BEGIN TRANSACTION;
+CREATE TABLE cadastro(nome "TEXT",sobrenome "TEXT",idade "NUM", ordem num);
+INSERT INTO cadastro VALUES('caue','beloni',26,NULL);
+INSERT INTO cadastro VALUES('Isis','beloni',1,NULL);
+INSERT INTO cadastro VALUES('Raquel','beloni',30,NULL);
+INSERT INTO cadastro VALUES('Isis','beloni',1,NULL);
+CREATE TABLE person (data_atual TEXT, id int PRIMARY KEY, firstname varchar(20), lastname varchar(20));
+INSERT INTO person VALUES(NULL,100,'Caue','San');
+INSERT INTO person VALUES(NULL,102,'Christine','Junior');
+INSERT INTO person VALUES(NULL,103,'Lars','Von');
+INSERT INTO person VALUES(NULL,104,'Roberto','Beloni');
+INSERT INTO person VALUES(NULL,105,'Maria','A');
+COMMIT;
